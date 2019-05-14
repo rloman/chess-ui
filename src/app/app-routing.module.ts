@@ -6,7 +6,13 @@ const routes: Routes = [
   {
     path: 'list',
     component: PieceListComponent
+  },
+  {
+    path: '',
+    component: PieceListComponent,
+    pathMatch: 'full'
   }
+ 
 ];
 
 @NgModule({
